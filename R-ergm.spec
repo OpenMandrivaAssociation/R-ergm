@@ -9,10 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL-3 + file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.4-3.tar.gz
-Requires:         R-network R-nlme R-trust 
-Requires:         R-coda R-KernSmooth R-sna R-Rglpk R-robustbase R-Matrix 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-network R-nlme R-trust
-BuildRequires:    R-coda R-KernSmooth R-sna R-Rglpk R-robustbase R-Matrix 
+Requires:         R-network R-nlme R-trust R-coda R-KernSmooth R-sna R-Rglpk
+Requires:         R-robustbase R-Matrix 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-network
+BuildRequires:    R-nlme R-trust R-coda R-KernSmooth R-sna R-Rglpk
+BuildRequires:    R-robustbase R-Matrix 
 
 %description
 An integrated set of tools to analyze and simulate networks based on
