@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.4_3
-Release:          1
+Release:          2
 Summary:          Fit, Simulate and Diagnose Exponential-Family Models for Networks
 Group:            Sciences/Mathematics
 License:          GPL-3 + file LICENSE
