@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          3.0.3
+Version:          3.1.0
 Release:          1
 Summary:          Fit, Simulate and Diagnose Exponential-Family Models for Networks
 Group:            Sciences/Mathematics
 License:          GPL-3 + file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/ergm_3.0-3.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/ergm_3.1-0.tar.gz
 Requires:         R-network R-nlme R-trust 
 Requires:         R-coda R-KernSmooth R-sna R-Rglpk R-robustbase R-Matrix 
 Requires:         R-latticeExtra
@@ -52,6 +52,8 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/help
+%{rlibdir}/%{packname}/doc
+%{rlibdir}/%{packname}/include
 
 
 %changelog
@@ -59,5 +61,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 777184
 - Import R-ergm
 - Import R-ergm
+
 
 
