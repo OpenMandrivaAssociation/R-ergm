@@ -7,7 +7,7 @@ Release:          1
 Summary:          Fit, Simulate and Diagnose Exponential-Family Models for Networks
 Group:            Sciences/Mathematics
 License:          GPL-3 + file LICENSE
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/ergm_3.1-0.tar.gz
 Requires:         R-network R-nlme R-trust 
 Requires:         R-coda R-KernSmooth R-sna R-Rglpk R-robustbase R-Matrix 
